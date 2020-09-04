@@ -35,4 +35,4 @@ while True:
     m = psutil.virtual_memory().percent / 100.0
     show_graph(1, m, 255, 255, 255)
     
-    time.sleep(0.01)
+    time.sleep(0.1)
